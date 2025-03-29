@@ -96,7 +96,7 @@
 <T.PointLight position={[0, 10, 0]} intensity={1} castShadow={true} />
 
 <T.Group {position}>
-    <AutoColliders shape="cuboid">
+    <AutoColliders shape="trimesh">
         <T.Mesh
             receiveShadow
             geometry={table.geometry}
