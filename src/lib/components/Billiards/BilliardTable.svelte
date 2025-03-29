@@ -85,16 +85,6 @@
     const table = tableMesh();
 </script>
 
-<T.DirectionalLight
-    position={[5, 10, 5]}
-    intensity={1}
-    castShadow={true}
-    shadow-mapSize-width={1024}
-    shadow-mapSize-height={1024}
-/>
-
-<T.PointLight position={[0, 10, 0]} intensity={1} castShadow={true} />
-
 <T.Group {position}>
     <AutoColliders shape="trimesh">
         <T.Mesh
